@@ -2,6 +2,7 @@ import numpy as np
 from scipy import ndimage
 from sklearn.neighbors import KernelDensity
 from sklearn.cluster import MeanShift
+import pandas as pd
 
 def kde2D(x, y, bandwidth, xbins=1000j, ybins=1000j, **kwargs):
     """Build 2D kernel density estimate (KDE)."""
